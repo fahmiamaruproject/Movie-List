@@ -15,3 +15,5 @@ Projek ini merupakan aplikasi Movie List yang dibuat menggunakan Android Studio 
 - Buka proyek ini dengan Android Studio
 - Tambahkan file google-services.json ke folder app/ (lihat [The Google Services Gradle Plugin] untuk informasi lebih lanjut)
 - Jalankan aplikasi di emulator atau perangkat nyata
+- Jika Anda tidak ingin ribet, silakan pergi ke [release] -> download -> install 
+- Enjoy the app :)
