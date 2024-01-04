@@ -1,4 +1,4 @@
-package com.fahmiamaru.uas;
+package com.fahmiamaru.movielist;
 
 import androidx.appcompat.app.AppCompatActivity;
 

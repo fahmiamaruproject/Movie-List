@@ -1,4 +1,4 @@
-package com.fahmiamaru.uas.adapter;
+package com.fahmiamaru.movielist.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,34 +14,33 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.fahmiamaru.uas.DetailActivity;
-import com.fahmiamaru.uas.R;
-import com.fahmiamaru.uas.model.Like;
+import com.fahmiamaru.movielist.DetailActivity;
+import com.fahmiamaru.movielist.R;
+import com.fahmiamaru.movielist.model.Movie;
 
 import java.util.List;
 
-public class LikeAdapter extends RecyclerView.Adapter<LikeAdapter.LikeHolder> {
+public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieHolder>{
 
     Context context;
-    List<Like> movieList;
+    List<Movie> movieList;
 
-    public LikeAdapter(Context context, List<Like> movieList) {
+    public MovieAdapter(Context context , List<Movie> movies){
         this.context = context;
-        this.movieList = movieList;
+        movieList = movies;
     }
-
 
     @NonNull
     @Override
-    public LikeHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public MovieAdapter.MovieHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.item_movie,parent,false);
-        return new LikeAdapter.LikeHolder(view);
+        return new MovieHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull LikeHolder holder, int position) {
-        Like movie = movieList.get(position);
+    public void onBindViewHolder(@NonNull MovieAdapter.MovieHolder holder, int position) {
+        Movie movie = movieList.get(position);
         holder.release.setText(movie.getRelease());
         holder.title.setText(movie.getTitle());
         holder.overview.setText(movie.getOverview());
@@ -62,6 +61,8 @@ public class LikeAdapter extends RecyclerView.Adapter<LikeAdapter.LikeHolder> {
                 context.startActivity(intent);
             }
         });
+
+
     }
 
     @Override
@@ -69,14 +70,14 @@ public class LikeAdapter extends RecyclerView.Adapter<LikeAdapter.LikeHolder> {
         return movieList.size();
     }
 
-    public class LikeHolder extends RecyclerView.ViewHolder {
-
+    public static class MovieHolder extends RecyclerView.ViewHolder {
         ImageView imageView;
         TextView title , overview , release;
         RelativeLayout relativeLayout;
 
-        public LikeHolder(@NonNull View itemView) {
+        public MovieHolder(@NonNull View itemView) {
             super(itemView);
+
             imageView = itemView.findViewById(R.id.imageview);
             title = itemView.findViewById(R.id.title_tv);
             overview = itemView.findViewById(R.id.overview_tv);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fahmiamaru.uas">
+    package="com.fahmiamaru.movielist">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,22 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UAS">
         <activity
-            android:name="com.fahmiamaru.uas.AboutActivity"
+            android:name="com.fahmiamaru.movielist.AboutActivity"
             android:exported="false" />
         <activity
-            android:name="com.fahmiamaru.uas.MainActivity"
+            android:name="com.fahmiamaru.movielist.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.fahmiamaru.uas.LikeActivity"
+            android:name="com.fahmiamaru.movielist.LikeActivity"
             android:exported="false" />
         <activity
-            android:name="com.fahmiamaru.uas.DetailActivity"
+            android:name="com.fahmiamaru.movielist.DetailActivity"
             android:exported="false" />
         <activity
-            android:name="com.fahmiamaru.uas.RegisterActivity"
+            android:name="com.fahmiamaru.movielist.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="com.fahmiamaru.uas.LoginActivity"
+            android:name="com.fahmiamaru.movielist.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

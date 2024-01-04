@@ -1,4 +1,4 @@
-package com.fahmiamaru.uas;
+package com.fahmiamaru.movielist;
 
 import android.content.Intent;
 import android.os.Bundle;

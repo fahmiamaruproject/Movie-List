@@ -1,4 +1,4 @@
-package com.fahmiamaru.uas;
+package com.fahmiamaru.movielist;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -12,8 +12,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.fahmiamaru.uas.adapter.LikeAdapter;
-import com.fahmiamaru.uas.model.Like;
+import com.fahmiamaru.movielist.adapter.LikeAdapter;
+import com.fahmiamaru.movielist.model.Like;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

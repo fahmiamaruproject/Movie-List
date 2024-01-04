@@ -1,4 +1,4 @@
-package com.fahmiamaru.uas.model;
+package com.fahmiamaru.movielist.model;
 
 public class Like {
     String user, title , release, overview , poster;

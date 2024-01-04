@@ -1,4 +1,4 @@
-package com.fahmiamaru.uas;
+package com.fahmiamaru.movielist;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
-import com.fahmiamaru.uas.adapter.MovieAdapter;
-import com.fahmiamaru.uas.model.Movie;
+import com.fahmiamaru.movielist.adapter.MovieAdapter;
+import com.fahmiamaru.movielist.model.Movie;
 import com.google.firebase.auth.FirebaseAuth;
 
 import org.json.JSONArray;
