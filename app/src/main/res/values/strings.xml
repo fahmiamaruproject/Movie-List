@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">Movie List</string>
+    <string name="overview">Overview</string>
+    <string name="release_date">Release Date</string>
+    <string name="title">Title</string>
+    <string name="liked_movie">Liked Movie</string>
+    <string name="change_language">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="register">Register</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="already_have_account">Already Have Account?</string>
+    <string name="link">https://api.themoviedb.org/3/movie/popular?api_key=fed3065d290f59dee0b0433bc6ee9e39</string>
+    <string name="about">About</string>
+    <string name="aboutappisi">This application was created using Android Studio using the Java programming
+        language, the contents of the movie list content using a recycler view taken from the JSON api
+        using volley assisted by using the singletron pattern. then there is the localization feature
+        where the localized language will follow the rating language, then you can login and register
+        using your email and password so that this application can save the movies you like with the
+        added feature of the Liked Movies feature using the SQLite Database. so, have fun!</string>
+    <string name="about_app">About App</string>
+    <string name="app_author">Created by</string>
+</resources>

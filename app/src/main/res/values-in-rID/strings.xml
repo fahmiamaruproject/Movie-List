@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="overview">Deskripsi</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="title">Judul</string>
+    <string name="liked_movie">Film Disukai</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="login">Masuk</string>
+    <string name="don_t_have_account">Belum Memiliki Akun?</string>
+    <string name="register">Daftar</string>
+    <string name="password_confirmation">Konfirmasi Password</string>
+    <string name="already_have_account">Sudah Memiliki Akun?</string>
+    <string name="link">https://api.themoviedb.org/3/movie/popular?api_key=fed3065d290f59dee0b0433bc6ee9e39&amp;language=id</string>
+    <string name="about">Tentang</string>
+    <string name="aboutappisi">Aplikasi ini dibuat menggunakan Android Studio dengan menggunakan bahasa
+        pemrograman Java, isi konten daftar film menggunakan recycler view yang di ambil dari api JSON
+        menggunakan volley dibantu dengan menggunakan singletron pattern. kemudian ada fitur lokalisasi
+        dimana bahasa yang telah dilokalisasi akan mengikuti bahasa perengkat, selanjutnya bisa login dan daftar
+        dengan menggunakan email dan password sehingga aplikasi ini bisa menyimpan film yang anda sukai
+        dengan fitur telah ditambahkan yaitu fitur Film Disukai dengan menggunakan Database SQLite. sekian, Selamat bersenang senang!</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="app_author">Dibuat oleh</string>
+</resources>
